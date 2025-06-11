@@ -1,0 +1,7 @@
+max_episode_duration_s: 60
+max_frames_per_episode: 1000
+output_dir: /tmp/ros2_lerobot_dataset
+topics:
+  depth: /camera/depth/image_raw
+  joint_states: /joint_states
+  rgb: /camera/color/image_raw
